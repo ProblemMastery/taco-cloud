@@ -13,7 +13,7 @@
 <form method="POST" th:object="${design}">
     <div class="grid">
         <div class="ingredient-group" id="wraps">
-            <h3>Design your wrap:</h3>
+            <h3>Choose your wrap:</h3>
             <div th:each="ingredient : ${wrap}">
                 <input name="ingredients" type="checkbox" th:value="${ingredient.value}"
                 />
@@ -22,7 +22,7 @@
         </div>
 
         <div class="ingredient-group" id="proteins">
-            <h3>Pick your protein:</h3>
+            <h3>Choose your protein:</h3>
             <div th:each="ingredient : ${protein}">
                 <input name="ingredients" type="checkbox" th:value="${ingredient.value}"
                 />
@@ -40,7 +40,7 @@
         </div>
 
         <div class="ingredient-group" id="veggies">
-            <h3>Determine your veggies:</h3>
+            <h3>Choose your veggies:</h3>
             <div th:each="ingredient : ${veggies}">
                 <input name="ingredients" type="checkbox" th:value="${ingredient.value}"
                 />

@@ -1,4 +1,5 @@
-package tacos;
+package com.app.tacocloud;
+
 import lombok.Data;
 
 @Data

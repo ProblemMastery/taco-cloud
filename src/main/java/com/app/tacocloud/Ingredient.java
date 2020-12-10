@@ -1,4 +1,4 @@
-package tacos;
+package com.app.tacocloud;
 
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
@@ -7,7 +7,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class Ingredient {
 
-    private final String value;
+    private final String id;
     private final String name;
     private final Type type;
 
